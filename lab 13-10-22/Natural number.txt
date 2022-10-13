@@ -1,0 +1,32 @@
+/*
+print sum of 10 natural number using while loop'
+Name = Monika Memane 
+Date = 13/10/22
+*/
+
+pacakage Natural_number;
+import java.util.Scanner;
+public class Number {
+	
+	public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+	int n =0;
+	int A;
+	int B=1;
+	while(B<=10) {
+		
+		System.out.print("Enter number:");
+		A= sc.nextInt();
+		
+		if(A<=0) {
+			
+		}
+		else {
+			n=n+A;
+		}
+		B++;
+	}
+		System.out.println();
+		System.out.println("sum of natural number is ");
+		System.out.println(n);
+	

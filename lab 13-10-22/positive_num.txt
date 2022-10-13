@@ -1,0 +1,30 @@
+/*
+ to print sum of only positive numbers using do while loop.
+ Name = Monika Memane
+ Date = 13/10/22
+  */
+
+package positive_num;
+import java.util.Scanner;
+public class num {
+	public static void main(String[] args) {
+		
+		int number1 = 0;
+		int number2 = 0;
+		
+		Scanner sc = new Scanner(System.in);
+		// using do while loop
+		do {
+			
+			number1 = + number2;
+			System.out.println("Enter a number");
+			number2 = sc.nextInt();
+					
+		}
+		while(number2>=0);
+		System.out.println("sum=" + number1);
+		sc.close();
+		
+	}
+
+}

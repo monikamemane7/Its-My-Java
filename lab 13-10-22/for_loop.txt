@@ -1,0 +1,22 @@
+/*
+ Demonstrate on nasted for loop.
+ Name = Monika Memane
+ Date = 13/10/22
+ */
+
+package for_loop;
+
+public class pattern {
+	public static void main(String[]args) {
+		
+		int A,B;// using for loop
+		for(A=1;A<6;A++) {
+			
+			System.out.println();
+			for(B=1;B<=A;B++) {
+				System.out.print("*");
+			}
+		}
+	}
+
+}
